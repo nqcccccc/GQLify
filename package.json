@@ -1,0 +1,55 @@
+{
+  "name": "gqlify",
+  "version": "1.0.0",
+  "description": "Production-ready NestJS + GraphQL workflow automation for Claude Code. 20 executable skills for code generation, validation, and security auditing.",
+  "main": "dist/bin/gqlify.js",
+  "bin": {
+    "gqlify": "./dist/bin/gqlify.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nestjs",
+    "graphql",
+    "cli",
+    "code-generation",
+    "claude-code",
+    "workflow",
+    "boilerplate",
+    "scaffold",
+    "typeorm",
+    "apollo",
+    "dataloader",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/gqlify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/gqlify/issues"
+  },
+  "homepage": "https://github.com/yourusername/gqlify#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.0.9",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "fs-extra": "^11.3.3",
+    "typescript": "^5.9.3"
+  }
+}
