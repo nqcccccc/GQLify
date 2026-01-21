@@ -1,7 +1,7 @@
 {
-  "name": "gqlify",
-  "version": "1.0.0",
-  "description": "Production-ready NestJS + GraphQL workflow automation for Claude Code. 20 executable skills for code generation, validation, and security auditing.",
+  "name": "@nqcccccc/gqlify",
+  "version": "1.0.1",
+  "description": "Production-ready NestJS + GraphQL workflow automation for Claude Code. 20+ executable skills for code generation, validation, and security auditing.",
   "main": "dist/bin/gqlify.js",
   "bin": {
     "gqlify": "./dist/bin/gqlify.js"
@@ -25,16 +25,16 @@
     "dataloader",
     "automation"
   ],
-  "author": "",
+  "author": "nqcccccc",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/gqlify.git"
+    "url": "https://github.com/nqcccccc/GQLify.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/gqlify/issues"
+    "url": "https://github.com/nqcccccc/GQLify/issues"
   },
-  "homepage": "https://github.com/yourusername/gqlify#readme",
+  "homepage": "https://github.com/nqcccccc/GQLify#readme",
   "engines": {
     "node": ">=18.0.0"
   },

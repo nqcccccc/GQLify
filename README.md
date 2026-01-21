@@ -24,13 +24,13 @@ GQLify is a CLI tool that bootstraps comprehensive Claude Code workflows for Nes
 ## 📦 Installation
 
 ```bash
-npm install -g gqlify
+npm install -g @nqcccccc/gqlify
 ```
 
 Or use locally in your project:
 
 ```bash
-npm install --save-dev gqlify
+npm install --save-dev @nqcccccc/gqlify
 ```
 
 ---
